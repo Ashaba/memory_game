@@ -33,7 +33,7 @@ class Main:
 			if user_prompt == "q":
 				return self.stop()
 			elif user_prompt == "h":
-				print self.help()
+				print self.game_instance.help()
 			elif int(user_prompt) == 1:
 				game_level = "easy"
 				return self.game_instance.play(game_level)

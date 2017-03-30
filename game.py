@@ -22,14 +22,14 @@ class Game:
 				grid_value = random.sample(letters, grid_size)
 				self.grid.append(grid_value)
 			self.display_object.show_grid(self.grid, grid_size)
-			
+			print "Please wait..."
 			sleep(10)
 			self.display_object.hid_grid(grid_size)
 			while True:
 				for x_input in range(1):
 					
-					positionx = raw_input("Enter X Value: ")
-					positiony = raw_input("Enter Y Value: ")
+					positionx = raw_input("Enter Coordinate Values: ")
+					positiony = raw_input("Enter Coordinate Values: ")
 					
 				if positiony == "q" or positionx == "q":
 					return self.stop()
