@@ -78,3 +78,4 @@ class Game:
 			"rows and columns by entering their positions e.g(3,5), (3,3) for A A. At the end of the game, "
 			"we calculate the time it takes you to unlock  values and the number of points you have accumulated."
 		)
+

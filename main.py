@@ -40,6 +40,7 @@ class Main:
 					game_level = "medium"
 					return self.game_instance.play(game_level)
 				elif int(user_prompt) == 3:
+
 					game_level = "expert"
 					return self.game_instance.play(game_level)
 				else:

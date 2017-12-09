@@ -11,7 +11,7 @@ class DisplayGrid:
 		for n in range(grid_size):
 			index = n+1
 			print(
-				str(index)+Colors.OKBLUE+' | ' + Colors.ENDC+'  '.join(grid_type[n]) +
+				str(index)+Colors.OKBLUE+' | ' +Colors.ENDC+'  '.join(grid_type[n]) +
 				Colors.OKBLUE+' | '+Colors.ENDC+str(index)
 			)
 		
