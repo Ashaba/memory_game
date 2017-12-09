@@ -1,4 +1,3 @@
-import pprint
 import os
 
 
@@ -7,19 +6,23 @@ class DisplayGrid:
 		self.box_initials = "*"
 		
 	def show_grid(self, grid_type, grid_size):
-		os.system("clear")
+		os.system('cls' if os.name == 'nt' else 'clear')
 		
 		for n in range(grid_size):
 			index = n+1
-			print str(index)+Colors.OKBLUE+' | ' +Colors.ENDC+'  '.join(grid_type[n]) + \
-			      Colors.OKBLUE+' | '+Colors.ENDC+str(index)
+			print(
+				str(index)+Colors.OKBLUE+' | ' + Colors.ENDC+'  '.join(grid_type[n]) +
+				Colors.OKBLUE+' | '+Colors.ENDC+str(index)
+			)
 		
-	def hid_grid(self, grid_size):
+	def hide_grid(self, grid_size):
 		os.system("clear")
 		for n in range(grid_size):
 			index = n + 1
-			print str(index) + Colors.OKBLUE + ' | ' + Colors.ENDC + self.box_initials*grid_size + \
-			      Colors.OKBLUE + ' | ' + Colors.ENDC + str(index)
+			print(
+				str(index) + Colors.OKBLUE + ' | ' + Colors.ENDC + self.box_initials*grid_size +
+				Colors.OKBLUE + ' | ' + Colors.ENDC + str(index)
+			)
 			
 	def random_grid(self):
 		pass
