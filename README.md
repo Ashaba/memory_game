@@ -16,3 +16,5 @@ A game to get you tested on how long and fast you can memorize something.
 - ```cd memory_game```
 - ```./main.py```
 
+![alt text](https://user-images.githubusercontent.com/15690240/34037487-f98da064-e199-11e7-8e96-553710ed844c.png)
+
