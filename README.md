@@ -4,6 +4,7 @@
 [![Coverage Status](https://coveralls.io/repos/github/Ashaba/memory_game/badge.svg?branch=master)](https://coveralls.io/github/Ashaba/memory_game?branch=master)
 
 A game to get you tested on how long and fast you can memorize something.
+![alt text](https://user-images.githubusercontent.com/15690240/34035053-c9a9f1e8-e191-11e7-9a69-07983297e8d6.png)
 
 ## Requirements
 1. Python3
@@ -14,3 +15,4 @@ A game to get you tested on how long and fast you can memorize something.
 ## Playing the game
 - ```cd memory_game```
 - ```./main.py```
+
