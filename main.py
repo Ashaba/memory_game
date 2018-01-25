@@ -1,5 +1,6 @@
 #! /usr/bin/env python3.6
 import os
+
 from game.game import Game
 
 "author == Ash"
